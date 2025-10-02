@@ -21,7 +21,7 @@ public class FinancialCalculator {
         System.out.print("Interest Rate: ");
         double interestRate = air / 12;
         // a^b -> Math.pow(a, b)
-        double monthlyPayment = (principal* (installment(Math.pow((1+interestRate), installment)) / (Math.pow((1+interestRate), installment)-1);
+        double monthlyPayment = principal* (installment*(Math.pow((1+interestRate), installment)) / (Math.pow((1+interestRate), installment)-1));
         double totalInterest = (monthlyPayment*interestRate) - principal;
 
     }
