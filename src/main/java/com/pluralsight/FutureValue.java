@@ -21,6 +21,8 @@ public class FutureValue {
         int totalDays = daysInYear*totalYears;
         double futureValue = deposit* Math.pow((1+(air/daysInYear)), totalDays );
         double interestEarned = futureValue - deposit;
+        System.out.println("future value: " + futureValue);
+        System.out.println("interest earned: " + interestEarned);
 
     }
 }
