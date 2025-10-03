@@ -13,9 +13,9 @@ public class FutureValue {
         // the first step would be to set up a scanner on the outside of the main method
         System.out.print("Deposit: ");
         int deposit = valueFuture.nextInt();
-        System.out.println("Air: ");
+        System.out.print("Air: ");
         double air = valueFuture.nextDouble();
-        System.out.println("Years: ");
+        System.out.print("Years: ");
         int totalYears = valueFuture.nextInt();
         int daysInYear = 365;
         int totalDays = daysInYear*totalYears;
